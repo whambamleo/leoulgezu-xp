@@ -1,0 +1,38 @@
+.CMD {
+    border-radius: 5px;
+    background-color: #282828;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+}
+
+.CMD-header {
+    background-color: #2662DF;
+    color: #FFFFFF;
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+}
+
+.CMD-content {
+    color: #FFFFFF;
+    padding: 25px;
+
+    height: 100%;
+}
+
+.profileLeft {
+    width: 33%;
+    float: left;
+    margin: 15px;
+}
+.profileRight {
+    width: 33%;
+    float: right;
+    margin: 15px;
+}

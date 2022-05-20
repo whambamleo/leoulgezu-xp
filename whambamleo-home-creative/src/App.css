@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("/src/imgs/xpBackground.jpg");
+  background-size: 120%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#taskbar {
+  width: 100%;
+  height: 40px;
+  background-color: #2662DF;
+
+  position: fixed;
+  bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#desktopFlex {
+  padding-top: 50px;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+}
+#desktop {
+  padding-top: 50px;
+  width: 30%;
+  height: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+#photo {
+  width: 20%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+}
+#cmd {
+  width: 55%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media only screen and (max-width: 1111px) {
+  body {
+    background-image: url("/src/imgs/xpBackground.jpg");
+    background-size: 200%;
   }
-  to {
-    transform: rotate(360deg);
+  #desktopFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #cmd {
+    width: 90%;
+    height: 500px;
+  }
+  #desktop {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
