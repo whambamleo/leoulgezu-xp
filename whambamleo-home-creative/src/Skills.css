@@ -1,0 +1,19 @@
+.Skills {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: #FFFFFF;
+}
+
+.Skills-header {
+    background-color: red;
+    color: #FFFFFF;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}

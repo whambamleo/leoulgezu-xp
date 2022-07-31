@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./Education.css";
 
-import me1 from "./imgs/me1.jpg";
+import washu from "./imgs/washu.png";
+import augie from "./imgs/augie.png";
+import gibson from "./imgs/gibson.png";
 
 class Education extends Component {
       constructor(props) {
@@ -12,93 +14,119 @@ class Education extends Component {
       render() {
             return (
                   <>
-                        <div class="CMD">
-                              <div class="CMD-header">/home/leoul-gezu</div>
+                        <div class="Education">
+                              <div class="Education-header">
+                                    /home/leoul-gezu/education{" "}
+                              </div>
 
-                              <div class="CMD-content">
-                                    <img src={me1} class="profileLeft" />
+                              <div class="Education-content-container">
+                                    <div class="Education-content1">
+                                          <div>
+                                                {" "}
+                                                <img
+                                                      src={washu}
+                                                      class="logo"
+                                                ></img>
+                                          </div>
+                                          <div>
+                                                <p class="Education-ptext">
+                                                      Washington University in
+                                                      St. Louis
+                                                </p>
+                                                <p class="Education-ptext">
+                                                      B.S/M.S Candidate in
+                                                      Computer Science
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <div>
+                                          <p class="Education-ptext">
+                                                I'm currently attending
+                                                Washington University in St.
+                                                Louis through the{" "}
+                                                <a href="https://engineering.wustl.edu/academics/dual-degree-program/index.html">
+                                                      {" "}
+                                                      dual degree program.{" "}
+                                                </a>
+                                                , pursuing both my B.S and M.S
+                                                in Computer Science. I will be
+                                                graduating with both degrees in
+                                                May 2024.
+                                          </p>
+                                    </div>
 
-                                    <p>
-                                          Lorem ipsum dolor sit amet. Eum
-                                          voluptate voluptas et voluptatibus
-                                          quia ut delectus labore id dicta
-                                          minus. Et veniam minima qui amet
-                                          explicabo aut incidunt facilis. Est
-                                          dolorum quia 33 natus repudiandae et
-                                          blanditiis voluptatem! Id voluptatum
-                                          consequatur qui saepe atque et
-                                          adipisci obcaecati est nobis dolores
-                                          est dolores maxime.{" "}
-                                    </p>
-                                    <p>
-                                          Non sapiente rerum qui velit possimus
-                                          id distinctio sint aut quae
-                                          consequatur. Et natus placeat est
-                                          excepturi perspiciatis est nihil
-                                          rerum.{" "}
-                                    </p>
-                                    <p>
-                                          In debitis velit id natus velit eum
-                                          nihil quia est omnis minus qui
-                                          suscipit dolores aut eius minus! Id
-                                          aliquid alias est odio delectus sed
-                                          sint quia. Qui quia autem ut aliquid
-                                          dolores et maxime sunt id maxime
-                                          quasi.{" "}
-                                    </p>
-                                    <img src={me1} class="profileRight" />
-                                    <p>
-                                          Eum iusto distinctio et voluptatem
-                                          fuga ut eligendi omnis rem enim
-                                          temporibus rem alias nihil. 33
-                                          necessitatibus internos eos enim
-                                          officia sit consequatur quam eos quia
-                                          cumque ut omnis ullam. Quo quas libero
-                                          nam dicta porro qui voluptatem
-                                          inventore. Est quidem quod qui optio
-                                          laboriosam ab nemo illo non rerum
-                                          consequatur eos molestiae dolores hic
-                                          neque quam.{" "}
-                                    </p>
-                                    <p>
-                                          Ut galisum iusto et veniam quasi est
-                                          tempore magnam vel nihil natus est
-                                          quia quos! Et impedit sint sit nemo
-                                          illo non iure magnam id tempora
-                                          dolores. Et nisi dolorem quo vero
-                                          corrupti eos rerum magnam et porro
-                                          quos ut perferendis voluptatem aut
-                                          sint aliquam sed incidunt odio. Qui
-                                          consequatur voluptatum eos recusandae
-                                          illo a pariatur ipsam et dolor aliquam
-                                          non omnis dolorem?{" "}
-                                    </p>
-                                    <p>
-                                          Eum iusto distinctio et voluptatem
-                                          fuga ut eligendi omnis rem enim
-                                          temporibus rem alias nihil. 33
-                                          necessitatibus internos eos enim
-                                          officia sit consequatur quam eos quia
-                                          cumque ut omnis ullam. Quo quas libero
-                                          nam dicta porro qui voluptatem
-                                          inventore. Est quidem quod qui optio
-                                          laboriosam ab nemo illo non rerum
-                                          consequatur eos molestiae dolores hic
-                                          neque quam.{" "}
-                                    </p>
-                                    <p>
-                                          Ut galisum iusto et veniam quasi est
-                                          tempore magnam vel nihil natus est
-                                          quia quos! Et impedit sint sit nemo
-                                          illo non iure magnam id tempora
-                                          dolores. Et nisi dolorem quo vero
-                                          corrupti eos rerum magnam et porro
-                                          quos ut perferendis voluptatem aut
-                                          sint aliquam sed incidunt odio. Qui
-                                          consequatur voluptatum eos recusandae
-                                          illo a pariatur ipsam et dolor aliquam
-                                          non omnis dolorem?{" "}
-                                    </p>
+                                    <div class="Education-content2">
+                                          <div>
+                                                {" "}
+                                                <img
+                                                      src={augie}
+                                                      class="logo"
+                                                ></img>
+                                          </div>
+                                          <div>
+                                                <p class="Education-ptext">
+                                                      Augustana College
+                                                </p>
+                                                <p class="Education-ptext">
+                                                      B.A in Engineering Physics
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <div>
+                                          <p class="Education-ptext">
+                                                From 2018-2021, I attended
+                                                Augustana College in Rock
+                                                Island, IL. I came in as a
+                                                physics major and gradually
+                                                switched to engineering physics
+                                                as I found myself more and more
+                                                enamoured by application over
+                                                theory. I took my first ever
+                                                computer science classes at
+                                                Augustana College, where I fell
+                                                in love with coding. That led to
+                                                the dual degree program and my
+                                                enrollment at WashU to pursue
+                                                Computer Science/Engineering
+                                                full-time. That being said,
+                                                there's still a part of me that
+                                                loves physics and I'll still be
+                                                receiving my engineering physics
+                                                degree from Augustana in 2023.
+                                          </p>
+                                    </div>
+                                    <div class="Education-content3">
+                                          <div>
+                                                {" "}
+                                                <img
+                                                      src={gibson}
+                                                      class="logo"
+                                                ></img>
+                                          </div>
+                                          <div>
+                                                <p class="Education-ptext">
+                                                      Gibson School Systems
+                                                </p>
+                                                <p class="Education-ptext">
+                                                      High School Diploma
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <div>
+                                          <p class="Education-ptext">
+                                                Before coming to the US for
+                                                college, I grew up and went to
+                                                school in Ethiopia. Although
+                                                there isn't much to say about
+                                                this time period that would add
+                                                to my software engineering
+                                                repertoire, my international
+                                                experiences are vital in
+                                                understanding what I bring to a
+                                                team in terms of open-mindedness
+                                                and cultural awareness.
+                                          </p>
+                                    </div>
                               </div>
                         </div>
                   </>

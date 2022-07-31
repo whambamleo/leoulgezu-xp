@@ -1,0 +1,88 @@
+.Resume {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: #FFFFFF;
+    background-color: #282828;
+}
+
+.divider {
+    width: 90%;
+}
+
+.Resume-header {
+    background-color: #CECECE;
+    color: #000000;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.Resume-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.Resume-content {
+    margin-left: 40px;
+    height: 200px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Resume-content-education{
+    margin-left: 25px;
+    width: 85%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.borderLeft {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.borderRight {
+    width: 25%;
+    height: 100%;
+}
+
+.Resume-ptext {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.Resume-ptext-right {
+    float: right;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Resume-section-title {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.Resume-content-skills {
+    border: 1px solid white;
+    height: 20px;
+    width: 100%;
+}

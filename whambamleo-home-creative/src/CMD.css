@@ -1,9 +1,7 @@
 .CMD {
-    border-radius: 5px;
-    background-color: #282828;
     width: 100%;
-    height: 700px;
     overflow: auto;
+    background-color: #282828;
 }
 
 .CMD-header {
@@ -11,6 +9,7 @@
     color: #FFFFFF;
     width: 100%;
     height: 30px;
+    font-size: 18px;
 
     display: flex;
     align-items: center;
@@ -19,20 +18,48 @@
     position: fixed;
 }
 
+.CMD-footer {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+}
+
 .CMD-content {
     color: #FFFFFF;
     padding: 25px;
+    height: 100%;;
+    display: flex;
+    flex-direction: column;
+}
 
-    height: 100%;
+.CMD-ptext {
+    font-size: 20px;
 }
 
 .profileLeft {
-    width: 33%;
-    float: left;
+    border-radius: 1000px;
+    width: 25%;
     margin: 15px;
+    
 }
 .profileRight {
-    width: 33%;
-    float: right;
+    border-radius: 1000px;
+    width: 25%;
     margin: 15px;
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 15px;
 }

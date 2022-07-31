@@ -18,89 +18,45 @@ class CMD extends Component {
                               <div class="CMD-header">/home/leoul-gezu</div>
 
                               <div class="CMD-content">
-                                    <img src={me3} class="profileLeft" />
+                                    <div class="content1">
+                                          <img src={me3} class="profileLeft" />
+                                          <p class="CMD-ptext">
+                                                Hey there! My name is Leoul
+                                                Gezu. You can call me Leo. I am
+                                                pursuing my B.S/M.S in Computer
+                                                Science at Washington University
+                                                in St. Louis. I'm aspiring to
+                                                become a software engineer in a
+                                                production environment,
+                                                currently seeking internship
+                                                opportunites for Summer 2023.
+                                          </p>
+                                    </div>
 
-                                    <p>
-                                          Lorem ipsum dolor sit amet. Eum
-                                          voluptate voluptas et voluptatibus
-                                          quia ut delectus labore id dicta
-                                          minus. Et veniam minima qui amet
-                                          explicabo aut incidunt facilis. Est
-                                          dolorum quia 33 natus repudiandae et
-                                          blanditiis voluptatem! Id voluptatum
-                                          consequatur qui saepe atque et
-                                          adipisci obcaecati est nobis dolores
-                                          est dolores maxime.{" "}
-                                    </p>
-                                    <p>
-                                          Non sapiente rerum qui velit possimus
-                                          id distinctio sint aut quae
-                                          consequatur. Et natus placeat est
-                                          excepturi perspiciatis est nihil
-                                          rerum.{" "}
-                                    </p>
-                                    <p>
-                                          In debitis velit id natus velit eum
-                                          nihil quia est omnis minus qui
-                                          suscipit dolores aut eius minus! Id
-                                          aliquid alias est odio delectus sed
-                                          sint quia. Qui quia autem ut aliquid
-                                          dolores et maxime sunt id maxime
-                                          quasi.{" "}
-                                    </p>
-                                    <img src={me1} class="profileRight" />
-                                    <p>
-                                          Eum iusto distinctio et voluptatem
-                                          fuga ut eligendi omnis rem enim
-                                          temporibus rem alias nihil. 33
-                                          necessitatibus internos eos enim
-                                          officia sit consequatur quam eos quia
-                                          cumque ut omnis ullam. Quo quas libero
-                                          nam dicta porro qui voluptatem
-                                          inventore. Est quidem quod qui optio
-                                          laboriosam ab nemo illo non rerum
-                                          consequatur eos molestiae dolores hic
-                                          neque quam.{" "}
-                                    </p>
-                                    <p>
-                                          Ut galisum iusto et veniam quasi est
-                                          tempore magnam vel nihil natus est
-                                          quia quos! Et impedit sint sit nemo
-                                          illo non iure magnam id tempora
-                                          dolores. Et nisi dolorem quo vero
-                                          corrupti eos rerum magnam et porro
-                                          quos ut perferendis voluptatem aut
-                                          sint aliquam sed incidunt odio. Qui
-                                          consequatur voluptatum eos recusandae
-                                          illo a pariatur ipsam et dolor aliquam
-                                          non omnis dolorem?{" "}
-                                    </p>
-                                    <p>
-                                          Eum iusto distinctio et voluptatem
-                                          fuga ut eligendi omnis rem enim
-                                          temporibus rem alias nihil. 33
-                                          necessitatibus internos eos enim
-                                          officia sit consequatur quam eos quia
-                                          cumque ut omnis ullam. Quo quas libero
-                                          nam dicta porro qui voluptatem
-                                          inventore. Est quidem quod qui optio
-                                          laboriosam ab nemo illo non rerum
-                                          consequatur eos molestiae dolores hic
-                                          neque quam.{" "}
-                                    </p>
-                                    <p>
-                                          Ut galisum iusto et veniam quasi est
-                                          tempore magnam vel nihil natus est
-                                          quia quos! Et impedit sint sit nemo
-                                          illo non iure magnam id tempora
-                                          dolores. Et nisi dolorem quo vero
-                                          corrupti eos rerum magnam et porro
-                                          quos ut perferendis voluptatem aut
-                                          sint aliquam sed incidunt odio. Qui
-                                          consequatur voluptatum eos recusandae
-                                          illo a pariatur ipsam et dolor aliquam
-                                          non omnis dolorem?{" "}
-                                    </p>
+                                    <div class="content2">
+                                          <p class="CMD-ptext">
+                                                This site was inspired by my
+                                                dad's Compaq desktop running
+                                                Windows XP, the machine that
+                                                made me fall in love with
+                                                computers all those years ago.
+                                                My resume is to your left for
+                                                any quick reference. If you feel
+                                                like learning more about me,
+                                                please feel free to explore this
+                                                site.
+                                          </p>
+                                          <img src={me1} class="profileRight" />
+                                    </div>
+
+                                    <div class="CMD-footer">
+                                          <p class="CMD-ptext">
+                                                You can reach me through any of
+                                                the means at the top of my
+                                                resume.
+                                                Thanks for stopping by!
+                                          </p>
+                                    </div>
                               </div>
                         </div>
                   </>
