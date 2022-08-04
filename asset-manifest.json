@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/leoulgezu-xp/static/css/main.7526ecbb.css",
+    "main.css": "/leoulgezu-xp/static/css/main.b418f5fe.css",
     "main.js": "/leoulgezu-xp/static/js/main.37aff4f1.js",
     "static/js/787.85cffdb9.chunk.js": "/leoulgezu-xp/static/js/787.85cffdb9.chunk.js",
     "static/media/mastercardPortrait.jpg": "/leoulgezu-xp/static/media/mastercardPortrait.0e62f61849542efbdf12.jpg",
@@ -45,12 +45,12 @@
     "static/media/swagger.png": "/leoulgezu-xp/static/media/swagger.afd1bfb8320b5e8ca2ce.png",
     "static/media/postman.webp": "/leoulgezu-xp/static/media/postman.7066eb08ea17b7fe2069.webp",
     "index.html": "/leoulgezu-xp/index.html",
-    "main.7526ecbb.css.map": "/leoulgezu-xp/static/css/main.7526ecbb.css.map",
+    "main.b418f5fe.css.map": "/leoulgezu-xp/static/css/main.b418f5fe.css.map",
     "main.37aff4f1.js.map": "/leoulgezu-xp/static/js/main.37aff4f1.js.map",
     "787.85cffdb9.chunk.js.map": "/leoulgezu-xp/static/js/787.85cffdb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7526ecbb.css",
+    "static/css/main.b418f5fe.css",
     "static/js/main.37aff4f1.js"
   ]
 }
