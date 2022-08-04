@@ -16,7 +16,10 @@ import Resume from "./Resume";
 import notepad from "./imgs/notepad.png";
 import word from "./imgs/word.svg";
 import folder from "./imgs/folder.png";
-import xpLogo from "./imgs/xpLogo.png";
+
+import linkedin from "./imgs/linkedin.png";
+import outlook from "./imgs/outlook.png";
+import github from "./imgs/github.png";
 
 class App extends Component {
       constructor(props) {
@@ -102,8 +105,6 @@ class App extends Component {
                                           name={"resume"}
                                           show={this.showResumeDisplay}
                                     />
-
-
                               </motion.div>
                               <AnimatePresence>
                                     <motion.div
@@ -135,7 +136,13 @@ class App extends Component {
                                     stiffness: 20,
                                     velocity: 0.1,
                               }}
-                        ></motion.div>
+                        >
+                              <div class="taskbar-icon-container">
+                                    <div className="taskbar-icon"> <a href="mailto:lgezu@wustl.edu" target="_blank" > <img src={outlook} className="taskbar-icon-image" href="www.google.com"/> </a> </div>
+                                    <div className="taskbar-icon"> <a href="https://www.linkedin.com/in/lgezu/" target="_blank"> <img src={linkedin} className="taskbar-icon-image"/> </a> </div>
+                                    <div className="taskbar-icon"> <a href="https://github.com/whambamleo" target="_blank"> <img src={github} className="taskbar-icon-image"/> </a> </div>
+                              </div>
+                        </motion.div>
                   </>
             );
       }
