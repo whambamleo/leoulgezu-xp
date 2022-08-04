@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leoulgezu-xp/static/css/main.74a26e63.css",
-    "main.js": "/leoulgezu-xp/static/js/main.3cf20994.js",
+    "main.css": "/leoulgezu-xp/static/css/main.7526ecbb.css",
+    "main.js": "/leoulgezu-xp/static/js/main.37aff4f1.js",
     "static/js/787.85cffdb9.chunk.js": "/leoulgezu-xp/static/js/787.85cffdb9.chunk.js",
     "static/media/mastercardPortrait.jpg": "/leoulgezu-xp/static/media/mastercardPortrait.0e62f61849542efbdf12.jpg",
     "static/media/forexDash.png": "/leoulgezu-xp/static/media/forexDash.a434a56e4335ad35d301.png",
@@ -11,11 +11,11 @@
     "static/media/me1.jpg": "/leoulgezu-xp/static/media/me1.3790a5153da5508c8f31.jpg",
     "static/media/me3.JPG": "/leoulgezu-xp/static/media/me3.97491207bc8ebcd4daeb.JPG",
     "static/media/olinCounts.png": "/leoulgezu-xp/static/media/olinCounts.4210ad4255cc2431581c.png",
-    "static/media/xpLogo.png": "/leoulgezu-xp/static/media/xpLogo.b65309839f728de98ffa.png",
     "static/media/matplotlib.png": "/leoulgezu-xp/static/media/matplotlib.fb25ba9814d9b0c55a6b.png",
     "static/media/react.png": "/leoulgezu-xp/static/media/react.81ed438b18e24116794d.png",
     "static/media/php.png": "/leoulgezu-xp/static/media/php.502c1a901665a0453b5c.png",
     "static/media/python.png": "/leoulgezu-xp/static/media/python.ddc8d4769b668904f793.png",
+    "static/media/outlook.png": "/leoulgezu-xp/static/media/outlook.150e4de904d1fcf5e486.png",
     "static/media/washu.png": "/leoulgezu-xp/static/media/washu.604a04b33aec7ebad047.png",
     "static/media/agile.png": "/leoulgezu-xp/static/media/agile.72f16b208ace15a82732.png",
     "static/media/matlab.png": "/leoulgezu-xp/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
@@ -41,15 +41,16 @@
     "static/media/spring.png": "/leoulgezu-xp/static/media/spring.94f201ce44348763e6a5.png",
     "static/media/confluence.png": "/leoulgezu-xp/static/media/confluence.eb315f745e674c282356.png",
     "static/media/junit.png": "/leoulgezu-xp/static/media/junit.92bfa3ff032f9f59ef0c.png",
+    "static/media/linkedin.png": "/leoulgezu-xp/static/media/linkedin.bb933d6809d6410387a0.png",
     "static/media/swagger.png": "/leoulgezu-xp/static/media/swagger.afd1bfb8320b5e8ca2ce.png",
     "static/media/postman.webp": "/leoulgezu-xp/static/media/postman.7066eb08ea17b7fe2069.webp",
     "index.html": "/leoulgezu-xp/index.html",
-    "main.74a26e63.css.map": "/leoulgezu-xp/static/css/main.74a26e63.css.map",
-    "main.3cf20994.js.map": "/leoulgezu-xp/static/js/main.3cf20994.js.map",
+    "main.7526ecbb.css.map": "/leoulgezu-xp/static/css/main.7526ecbb.css.map",
+    "main.37aff4f1.js.map": "/leoulgezu-xp/static/js/main.37aff4f1.js.map",
     "787.85cffdb9.chunk.js.map": "/leoulgezu-xp/static/js/787.85cffdb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a26e63.css",
-    "static/js/main.3cf20994.js"
+    "static/css/main.7526ecbb.css",
+    "static/js/main.37aff4f1.js"
   ]
 }
