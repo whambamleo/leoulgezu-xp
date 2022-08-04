@@ -5,6 +5,7 @@ import notepad from "./imgs/notepad.png";
 import word from "./imgs/word.svg";
 import folder from "./imgs/folder.png";
 
+
 class Icon extends Component {
       constructor(props) {
             super(props);

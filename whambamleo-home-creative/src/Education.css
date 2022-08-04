@@ -1,13 +1,13 @@
 .Education {
     width: 100%;
-    height: 100%;
+    height: 680px;
     overflow: auto;
     color: #FFFFFF;
     background-color: #282828;
 }
 
 .Education-header {
-    background-color: #ffb347;
+    background-color: #2662DF;
 
     width: 100%;
     height: 30px;
@@ -80,4 +80,8 @@
 .Education-ptext {
     font-size: 18px;
     margin-left: 20px;
+}
+
+.link {
+    color: #2662DF;
 }

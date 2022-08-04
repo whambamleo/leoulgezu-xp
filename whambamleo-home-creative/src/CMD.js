@@ -20,20 +20,23 @@ class CMD extends Component {
                               <div class="CMD-content">
                                     <div class="content1">
                                           <img src={me3} class="profileLeft" />
+                                    </div>
+
+                                    <div class="content2">
                                           <p class="CMD-ptext">
                                                 Hey there! My name is Leoul
                                                 Gezu. You can call me Leo. I am
                                                 pursuing my B.S/M.S in Computer
                                                 Science at Washington University
-                                                in St. Louis. I'm aspiring to
-                                                become a software engineer in a
+                                                in St. Louis. I am currently a
+                                                junior and will be graduating in
+                                                May 2024. I'm aspiring to become
+                                                a software engineer in a
                                                 production environment,
                                                 currently seeking internship
                                                 opportunites for Summer 2023.
                                           </p>
-                                    </div>
 
-                                    <div class="content2">
                                           <p class="CMD-ptext">
                                                 This site was inspired by my
                                                 dad's Compaq desktop running
@@ -46,15 +49,13 @@ class CMD extends Component {
                                                 please feel free to explore this
                                                 site.
                                           </p>
-                                          <img src={me1} class="profileRight" />
                                     </div>
 
                                     <div class="CMD-footer">
                                           <p class="CMD-ptext">
                                                 You can reach me through any of
                                                 the means at the top of my
-                                                resume.
-                                                Thanks for stopping by!
+                                                resume. Thanks for stopping by!
                                           </p>
                                     </div>
                               </div>

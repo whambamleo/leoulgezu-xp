@@ -1,13 +1,13 @@
-.Leadership {
+.Interests {
     width: 100%;
-    height: 100%;
+    height: 680px;
     overflow: auto;
     color: #FFFFFF;
     background-color: #282828;
 }
 
-.Leadership-header {
-    background-color: #ffb347;
+.Interests-header {
+    background-color: #2662DF;
 
     width: 100%;
     height: 30px;
@@ -17,4 +17,15 @@
     align-items: center;
     justify-content: center;
     position: fixed;
+}
+
+.Interests-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 30px;
+}
+
+.Interests-content1 {
+
 }

@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import ReactDOM from "react-dom";
+import { AnimatePresence, motion } from "framer-motion";
 
 import "./App.css";
 
@@ -8,7 +9,7 @@ import CMD from "./CMD";
 import Education from "./Education";
 import Skills from "./Skills";
 import WorkExperience from "./WorkExperience";
-import Leadership from "./Leadership";
+import Interests from "./Interests";
 import Projects from "./Projects";
 import Resume from "./Resume";
 
@@ -23,7 +24,7 @@ class App extends Component {
             this.showEducationDisplay = this.showEducationDisplay.bind(this);
             this.showWorkExperienceDisplay =
                   this.showWorkExperienceDisplay.bind(this);
-            this.showLeadershipDisplay = this.showLeadershipDisplay.bind(this);
+            this.showInterestsDisplay = this.showInterestsDisplay.bind(this);
             this.showSkillsDisplay = this.showSkillsDisplay.bind(this);
             this.showProjectsDisplay = this.showProjectsDisplay.bind(this);
             this.showResumeDisplay = this.showResumeDisplay.bind(this);
@@ -37,8 +38,8 @@ class App extends Component {
             ReactDOM.render(<WorkExperience />, document.getElementById("cmd"));
       }
 
-      showLeadershipDisplay() {
-            ReactDOM.render(<Leadership />, document.getElementById("cmd"));
+      showInterestsDisplay() {
+            ReactDOM.render(<Interests />, document.getElementById("cmd"));
       }
 
       showSkillsDisplay() {
@@ -57,7 +58,18 @@ class App extends Component {
             return (
                   <>
                         <div id="desktopFlex">
-                              <div id="desktop">
+                              <motion.div
+                                    id="desktop"
+                                    initial={{ x: -1500 }}
+                                    animate={{ x: 0 }}
+                                    exit={{ x: -500 }}
+                                    transition={{
+                                          delay: 0.25,
+                                          type: "spring",
+                                          stiffness: 20,
+                                          velocity: 1,
+                                    }}
+                              >
                                     <Icon
                                           type={notepad}
                                           name={"education"}
@@ -68,11 +80,13 @@ class App extends Component {
                                           name={"work experience"}
                                           show={this.showWorkExperienceDisplay}
                                     />
+                                    {/*
                                     <Icon
                                           type={notepad}
-                                          name={"leadership"}
-                                          show={this.showLeadershipDisplay}
+                                          name={"interests"}
+                                          show={this.showInterestsDisplay}
                                     />
+                                    */}
                                     <Icon
                                           type={notepad}
                                           name={"skills"}
@@ -88,14 +102,40 @@ class App extends Component {
                                           name={"resume"}
                                           show={this.showResumeDisplay}
                                     />
-                              </div>
-                              <div id="cmd">
-                                    {" "}
-                                    <CMD />{" "}
-                              </div>
+
+
+                              </motion.div>
+                              <AnimatePresence>
+                                    <motion.div
+                                          id="cmd"
+                                          initial={{ x: 1500 }}
+                                          animate={{ x: 0 }}
+                                          exit={{ y: 1500 }}
+                                          transition={{
+                                                delay: 0.15,
+                                                type: "spring",
+                                                stiffness: 20,
+                                                velocity: 0.1,
+                                          }}
+                                    >
+                                          {" "}
+                                          <CMD />{" "}
+                                    </motion.div>
+                              </AnimatePresence>
                         </div>
 
-                        <div id="taskbar"></div>
+                        <motion.div
+                              id="taskbar"
+                              initial={{ y: 1500 }}
+                              animate={{ y: 0 }}
+                              exit={{ y: -1500 }}
+                              transition={{
+                                    delay: 0.35,
+                                    type: "spring",
+                                    stiffness: 20,
+                                    velocity: 0.1,
+                              }}
+                        ></motion.div>
                   </>
             );
       }

@@ -44,14 +44,36 @@ class Education extends Component {
                                                 I'm currently attending
                                                 Washington University in St.
                                                 Louis through the{" "}
-                                                <a href="https://engineering.wustl.edu/academics/dual-degree-program/index.html">
+                                                <a
+                                                      href="https://engineering.wustl.edu/academics/dual-degree-program/index.html"
+                                                      class="link"
+                                                >
                                                       {" "}
-                                                      dual degree program.{" "}
-                                                </a>
-                                                , pursuing both my B.S and M.S
-                                                in Computer Science. I will be
-                                                graduating with both degrees in
-                                                May 2024.
+                                                      dual degree program
+                                                </a>{" "}
+                                                pursuing my B.S in Computer
+                                                Science. I am currently a junior
+                                                and I'll be graduating in May
+                                                2024.
+                                          </p>
+                                          <p class="Education-ptext">
+                                                During my time at WashU, I have
+                                                been working digilently to
+                                                expand my SWE skillset. So far,
+                                                I have tried to lay a strong
+                                                (and diverse) foundation by
+                                                taking classes like data
+                                                structures and algorithms, data
+                                                science, systems softwares,
+                                                parallel and concurrent
+                                                programming, object-oriented
+                                                programming, web development,
+                                                rapid prototyping,
+                                                microcontroller programming and
+                                                mobile application development.
+                                          </p>
+                                          <p class="Education-ptext">
+                                                <a href="https://drive.google.com/file/d/1PeknWVlkW0YbmR40Eam22On7Lt_KgCtM/view?usp=sharing" class="link"> Unofficial Transcript </a>
                                           </p>
                                     </div>
 
