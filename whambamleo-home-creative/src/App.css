@@ -34,7 +34,7 @@ body {
 }
 
 .taskbar-icon:hover {
-  transform: translateY(-10px);
+  transform: translateY(-2px);
 }
 
 #desktopFlex {
