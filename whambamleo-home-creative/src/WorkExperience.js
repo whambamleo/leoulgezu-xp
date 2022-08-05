@@ -42,7 +42,6 @@ class WorkExperience extends Component {
                                                 </p>
                                           </div>
                                     </div>
-                                    <br></br>
                                     <div class="WorkExperience-content1">
                                           <p class="WorkExperience-ptext">
                                                 Summer of 2022, I interned at
@@ -76,8 +75,6 @@ class WorkExperience extends Component {
                                                 class="photo"
                                           ></img>
                                     </div>
-                                    <br></br>
-                                    <br></br>
                                     <div class="WorkExperience-content1">
                                           <div>
                                                 {" "}
@@ -99,8 +96,6 @@ class WorkExperience extends Component {
                                                 </p>
                                           </div>
                                     </div>
-                                    <br></br>
-                                    <br></br>
                                     <div class="WorkExperience-content1">
                                           <p class="WorkExperience-ptext">
                                                 At the height of COVID during

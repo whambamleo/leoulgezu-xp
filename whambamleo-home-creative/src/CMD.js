@@ -19,7 +19,7 @@ class CMD extends Component {
 
                               <div class="CMD-content">
                                     <div class="content1">
-                                          <img src={me3} class="profileLeft" />
+                                          <img src={me1} class="profileLeft" />
                                     </div>
 
                                     <div class="content2">

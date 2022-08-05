@@ -39,7 +39,7 @@
     padding: 10px;
     
     width: 95%;
-    height: 150px;
+    height: 100%;
 
     display: flex;
     flex-direction: row;
@@ -80,10 +80,11 @@
 .WorkExperience-ptext {
     font-size: 18px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .photo {
     border-radius: 10px;
-    width: 25%;
+    width: 45%;
     margin: 15px;
   }
